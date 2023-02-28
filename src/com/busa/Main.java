@@ -6,16 +6,13 @@ public class Main{
             Scanner in = new Scanner(System.in);
 
             System.out.print("Input sign: ");
-            String sign = in.toString();
-            
+            String sign = in.nextLine();
+
             System.out.print("Input first number: ");
             int num1 = in.nextInt();
 
             System.out.print("Input second number: ");
             int num2 = in.nextInt();
-
-
-
 
             if (sign.equals("+")) {
                 System.out.println(num1 + " + " + num2 + " = " +
